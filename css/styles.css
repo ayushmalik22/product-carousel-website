@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.product-carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.product-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
